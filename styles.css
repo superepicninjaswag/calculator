@@ -4,5 +4,19 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}
+
+#dice-jar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.die {
+    display: flex;
+    flex-direction: column;
 }
